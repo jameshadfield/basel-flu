@@ -1,0 +1,39 @@
+{
+  "title": "Influenza in Basel",
+  "color_options": {
+    "num_date": {
+      "menuItem": "Sampling Date",
+      "legendTitle": "Sampling Date",
+      "type": "continuous"
+    },
+    "socialscore": {
+        "menuItem": "socialscore",
+        "legendTitle": "socialscore",
+        "type": "continuous"
+    },
+    "district": {
+        "menuItem": "district",
+        "legendTitle": "district",
+        "type": "discrete"
+    },
+    "bloc": {
+        "menuItem": "bloc",
+        "legendTitle": "bloc",
+        "type": "continuous"
+    }
+  },
+  "geo": ["bloc", "district"],
+  "defaults": {
+      "geoResolution": "bloc",
+      "colorBy": "num_date",
+      "mapTriplicate": false
+  },
+  "maintainer": [
+      "Nicola Müller et al",
+      "mailto:nicola.mueller@bsse.ethz.ch"
+  ],
+  "panels": [
+      "tree",
+      "map"
+  ]
+}
