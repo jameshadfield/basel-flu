@@ -6,11 +6,6 @@
       "legendTitle": "Sampling Date",
       "type": "continuous"
     },
-    "socialscore": {
-        "menuItem": "socialscore",
-        "legendTitle": "socialscore",
-        "type": "continuous"
-    },
     "district": {
         "menuItem": "district",
         "legendTitle": "district",

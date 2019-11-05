@@ -18,12 +18,6 @@
       "legendTitle": "Sampling Date",
       "menuItem": "Sampling Date",
       "type": "continuous"
-    },
-    "socialscore": {
-      "key": "socialscore",
-      "legendTitle": "socialscore",
-      "menuItem": "socialscore",
-      "type": "continuous"
     }
   },
   "defaults": {
@@ -1342,6 +1336,6 @@
     "map"
   ],
   "title": "Influenza in Basel",
-  "updated": "16 Oct 2019",
+  "updated": "06 Nov 2019",
   "virus_count": 663
 }

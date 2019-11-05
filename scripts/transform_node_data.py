@@ -25,10 +25,12 @@ for node in node_data["nodes"]:
 
 
 for node in node_data["nodes"]:
-    if "socialscore" in node_data["nodes"][node] and node_data["nodes"][node]["socialscore"] == "NaN":
+    # remove social score as per email 6-nov-2019
+    if "socialscore" in node_data["nodes"][node]:
         del node_data["nodes"][node]["socialscore"]
     if "district" in node_data["nodes"][node] and node_data["nodes"][node]["district"] == "unknown":
         del node_data["nodes"][node]["district"]
+
 
 
 with open(sys.argv[2], 'w') as fh:
